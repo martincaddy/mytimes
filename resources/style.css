@@ -21,17 +21,18 @@ header {
   padding: 15px;
 }
 
-h3{
+ .heading h3{
   padding-left: 10px;
 }
 
-.column .large section{
-  grid-template-columns: 630px;
-  display: flex;
+.column.large {
+  width: 630px;
 }
 
-.column .large{
-  column-count: 1;
-  column-width: 600px;
+.column.medium {
+  width: 300px;
+}
 
+.column.small {
+  width: 240px;
 }
