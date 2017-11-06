@@ -4,6 +4,17 @@
   flex-grow: 1;
 }
 
+.content{
+  display: flex;
+  border: 1px solid black;
+}
+
+.column{
+  border: 1px solid black;
+  margin-right: 30px;
+  position: relative;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -25,14 +36,14 @@ header {
   padding-left: 10px;
 }
 
-.column.large {
+.collrg {
   width: 630px;
 }
 
-.column.medium {
+.colmed {
   width: 300px;
 }
 
-.column.small {
+.colsml {
   width: 240px;
 }
