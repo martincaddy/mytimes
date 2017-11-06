@@ -41,14 +41,20 @@ header {
 }
 
 .collrg {
+  /*display: flex;
+  justify-content: flex-start;*/
   width: 630px;
 }
 
 .colmed {
+  display: flex;
+  flex-direction: column;
   width: 300px;
 }
 
 .colsml {
+  display: flex;
+  flex-direction: column;
   width: 240px;
 }
 
