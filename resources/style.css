@@ -7,12 +7,13 @@
 .content{
   display: flex;
   border: 1px solid black;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 .column{
   border: 1px solid black;
-  margin-right: 30px;
-  position: relative;
+  /*margin-right: 30px;*/
 }
 
 header {
