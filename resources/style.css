@@ -1,0 +1,23 @@
+.heading {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  display: inline-block;
+  align-items: center;
+}
+
+/*.headnav{
+  display: inline-block;
+}*/
+
+p{
+  display: inline-block;
+  align-content: center;
+}
