@@ -16,10 +16,22 @@ header {
   border-bottom: solid black 1px;
 }
 
-.navi{
+.navi a{
   color: black;
+  padding: 15px;
 }
 
 h3{
   padding-left: 10px;
+}
+
+.column .large section{
+  grid-template-columns: 630px;
+  display: flex;
+}
+
+.column .large{
+  column-count: 1;
+  column-width: 600px;
+  
 }
