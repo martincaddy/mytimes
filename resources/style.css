@@ -1,13 +1,9 @@
-* {
-  /*padding: 0;*/
-  /*margin: 0;*/
-}
-
 .heading {
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   flex-grow: 1;
   /*position: fixed;*/
+  /*align-self: flex-start;*/
 }
 
 .content{
@@ -28,6 +24,7 @@
 }
 
 header {
+  align-self: flex-start;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -40,9 +37,6 @@ header {
   position: fixed;
   z-index: 1;
   background-color: white;
-  align-self: flex-start;
-  /*align-items: flex-start;*/
-  /*position: fixed;*/
 }
 
 .navi a{
@@ -149,7 +143,7 @@ header {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  border: solid red 2px;
+  /*border: solid red 2px;*/
 }
 
 #fthd{
@@ -160,19 +154,19 @@ header {
   border-right: white solid 2px;
   padding-right: 20px;
   display: inline-block;
-  border: solid red 2px;
+  /*border: solid red 2px;*/
 }
 
 .navi2 a{
   display: inline-block;
   color: black;
   padding: 15px;
-  border: solid red 2px;
+  /*border: solid red 2px;*/
 }
 
 nav {
   display: inline-block;
-  border: solid red 2px;
+  /*border: solid red 2px;*/
 }
 
 #cright {
@@ -182,6 +176,10 @@ nav {
 
 #orca, #burger {
   width: 300px;
+}
+
+#orca {
+  padding-bottom: 28px;
 }
 
 .stories {
