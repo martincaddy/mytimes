@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .heading {
   display: flex;
   align-items: center;
@@ -10,6 +14,8 @@
   /*border: 1px solid black;*/
   justify-content: space-between;
   margin-top: 30px;
+  perspective-origin: bottom;
+  padding-top: 100px;
 }
 
 .column{
