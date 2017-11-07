@@ -156,3 +156,7 @@ header {
   display: inline-block;
   align-content: flex-end;
 }
+
+#orca, #burger {
+  width: 300px;
+}
